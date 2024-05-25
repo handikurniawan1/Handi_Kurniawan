@@ -1,12 +1,12 @@
 import React from "react";
 import './about.css'
-
+import arrow from '../assets/arrow.png';
 function About(){
 
     return(
         <>
         <section id="About"> 
-            <a href="#About" class="arrow"><img src="/Handi_Kurniawan/src/assets/iconx.png" alt="" class="icon1"/></a>
+            <a href="#About" class="arrow"><img src={arrow} alt="" class="icon1"/></a>
             <p class="heading-p">Get to Know More</p>
             <h1 class="heading">About Me</h1>
             <div class="container about-container">

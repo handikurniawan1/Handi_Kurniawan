@@ -1,11 +1,11 @@
 import React from "react";
 import './experience.css'
-
+import arrow from '../assets/arrow.png';
 function Experience(){
     return(
         <>
         <section id="Experience">
-            <a href="#Experience" class="arrow"><img src="/Handi_Kurniawan/src/assets/arrow.png" alt="" class="icon1"/></a>
+            <a href="#Experience" class="arrow"><img src={arrow} alt="" class="icon1"/></a>
             <p class="heading-p">Explore My</p>
             <h1 class="heading">Experience</h1>
             <div class="container experience-container">
