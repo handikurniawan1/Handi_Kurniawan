@@ -1,6 +1,14 @@
 import React from "react";
 import './experience.css'
 import arrow from '../assets/arrow.png';
+import html from '../assets/html.png';
+import css from '../assets/css.png';
+import js from '../assets/javascript.png';
+import node from '../assets/nodejs.png';
+import cpp from '../assets/c++.png';
+import cs from '../assets/cs.png';
+import react from '../assets/react.png';
+import ex from '../assets/express.png';
 function Experience(){
     return(
         <>
@@ -13,28 +21,28 @@ function Experience(){
                     <h2>Frontend Development</h2>
                     <div class="experience">
                         <div class="ex-div">
-                            <img src="/Handi_Kurniawan/src/assets/html.png" alt="" class="icon1"/>
+                            <img src={html} alt="" class="icon1"/>
                             <div>
                                 <h4>HTML</h4>
                                 <p>Experienced</p>
                             </div>
                         </div>
                         <div class="ex-div">
-                            <img src="/Handi_Kurniawan/src/assets/css.png" alt="" class="icon1"/>
+                            <img src={css} alt="" class="icon1"/>
                             <div>
                                 <h4>CSS</h4>
                                 <p>Experienced</p>
                             </div>
                         </div>
                         <div class="ex-div">
-                            <img src="/Handi_Kurniawan/src/assets/javascript.png" alt="" class="icon1"/>
+                            <img src={js} alt="" class="icon1"/>
                             <div>
                                 <h4>Javascript</h4>
                                 <p>Experienced</p>
                             </div>
                         </div>
                         <div class="ex-div">
-                            <img src="/Handi_Kurniawan/src/assets/react.png" alt="" class="icon1"/>
+                            <img src={react} alt="" class="icon1"/>
                             <div>
                                 <h4>React js</h4>
                                 <p>Experienced</p>
@@ -46,28 +54,28 @@ function Experience(){
                     <h2>Backend Development</h2>
                     <div class="experience">
                         <div class="ex-div">
-                            <img src="/Handi_Kurniawan/src/assets/nodejs.png" alt="" class="icon1"/>
+                            <img src={node} alt="" class="icon1"/>
                             <div>
                                 <h4>Node Js</h4>
                                 <p>Experienced</p>
                             </div>
                         </div>
                         <div class="ex-div">
-                            <img src="/Handi_Kurniawan/src/assets/express.png" alt="" class="icon1"/>
+                            <img src={ex} alt="" class="icon1"/>
                             <div>
                                 <h4>express js</h4>
                                 <p>Experienced</p>
                             </div>
                         </div>
                         <div class="ex-div">
-                            <img src="/Handi_Kurniawan/src/assets/c++.png" alt="" class="icon1"/>
+                            <img src={cpp} alt="" class="icon1"/>
                             <div>
                                 <h4>C++</h4>
                                 <p>Experienced</p>
                             </div>
                         </div>
                         <div class="ex-div">
-                            <img src="/Handi_Kurniawan/src/assets/cs.png" alt="" class="icon1"/>
+                            <img src={cs} alt="" class="icon1"/>
                             <div>
                                 <h4>C#</h4>
                                 <p>Experienced</p>

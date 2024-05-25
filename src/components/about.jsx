@@ -1,6 +1,9 @@
 import React from "react";
 import './about.css'
 import arrow from '../assets/arrow.png';
+import me from '../assets/cartoonme.jpg';
+import edu from '../assets/education.png';
+import book from '../assets/book.png';
 function About(){
 
     return(
@@ -11,12 +14,12 @@ function About(){
             <h1 class="heading">About Me</h1>
             <div class="container about-container">
                 <div class="about-left">
-                    <img src="/Handi_Kurniawan/src/assets/cartoonme.jpg" alt=""/>
+                    <img src={me} alt=""/>
                 </div>
                 <div class="about-right">
                     <div class="basic-edu">
                         <div class="edu-box">
-                            <img src="/Handi_Kurniawan/src/assets/education.png" alt="" class="icon1"/>
+                            <img src={edu} alt="" class="icon1"/>
                             <h4>Experience</h4>
                             <p>
                                 2+ years <br/>
@@ -24,7 +27,7 @@ function About(){
                             </p>
                         </div>
                         <div class="edu-box">
-                            <img src="/Handi_Kurniawan/src/assets/book.png" alt="" class="icon1"/>
+                            <img src={book} alt="" class="icon1"/>
                             <h4>Eduaction</h4>
                             <p>
                                 Bachelors Degree <br/>
