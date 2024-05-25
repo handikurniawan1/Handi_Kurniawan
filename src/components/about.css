@@ -1,0 +1,29 @@
+/* Start About */
+
+.about-container{
+    display: grid;
+    grid-template-columns: 38% auto;
+    gap: 4rem;
+    align-items: center;
+
+}
+.about-left{
+    border-radius: 20px;
+    overflow: hidden;
+}
+.basic-edu{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+.edu-box{
+    padding: 24px;
+    text-align: center;
+    border: 1px solid var(--color-dark-variant);
+    border-radius: 30px;
+    width: 100%;
+}
+.edu-box img{
+    margin: auto;
+}
+/* End About */

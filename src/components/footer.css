@@ -1,0 +1,9 @@
+footer{
+    margin-top: 9rem;
+    padding: 30px;
+    text-align: center;
+}
+footer .nav-links{
+    justify-content: center;
+    margin-bottom: 3rem;
+}

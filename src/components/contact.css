@@ -1,0 +1,19 @@
+/* Start Contact */
+
+.contact-container{
+    max-width: 30rem;
+    border: 1px solid var(--color-dark-variant);
+    padding: 24px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email, .linkedin {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* End Contact */

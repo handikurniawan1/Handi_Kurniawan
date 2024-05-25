@@ -1,0 +1,19 @@
+/* Start Projects */
+
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.project{
+    padding: 24px;
+    border: 1px solid var(--color-dark-variant);
+    border-radius: 30px;
+    text-align: center;
+}
+.project img{
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+/* End Projects */
