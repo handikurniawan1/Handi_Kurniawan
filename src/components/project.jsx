@@ -20,7 +20,7 @@ function Project(){
                     <h3>Ternak Otot</h3>
                     <div class="header-action-aria">
                         <a href="https://github.com/handikurniawan1/TernakOtot" class="btn">Github</a>
-                        <a href="" class="btn">Live Demo</a>
+
                     </div>
                 </div>
                 <div class="project">
@@ -28,7 +28,7 @@ function Project(){
                     <h3>Earth Campaign</h3>
                     <div class="header-action-aria">
                         <a href="https://github.com/handikurniawan1/EarthCampaign" class="btn">Github</a>
-                        <a href="" class="btn">Live Demo</a>
+
                     </div>
                 </div>
                 <div class="project">
