@@ -6,6 +6,7 @@ import ec from '../assets/iofest.png';
 import nxb from '../assets/readingsite.png';
 import soccer from '../assets/soccer.png';
 import surviv from '../assets/surviv.png';
+import mangasearch from '../assets/MangaSearch.png';
 
 function Project(){
     return(
@@ -51,6 +52,13 @@ function Project(){
                     <h3>Surviv</h3>
                     <div class="header-action-aria">
                         <a href="https://github.com/handikurniawan1/Surviv" class="btn">Github</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src={mangasearch} alt=""/>
+                    <h3>Search Manga Availability</h3>
+                    <div class="header-action-aria">
+                        <a href="https://github.com/handikurniawan1/MangaSearch" class="btn">Github</a>
                     </div>
                 </div>
         
